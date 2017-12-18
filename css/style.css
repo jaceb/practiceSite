@@ -1,4 +1,27 @@
+.navbar {
+  font-size: 24px;
+  color: white;
+  font-family: arial;
+  background: rgb(29, 29, 27);
+  margin-top: 0;
+  display: inline-flex;
+  padding: 0px;
+  max-height: 100px;
+}
+body {
+  background: gray;
+  margin:0;
+  padding: 0;
+}
 .navbarButton {
-  font-size: 32px;
-  
+  max-width: 280px;
+  margin: auto;
+  margin-left: auto;
+  border-left: solid rgb(65, 87, 61) 2px;
+  height: 100px;
+  cursor: pointer;
+}
+.navbarButton:hover {
+  background: white;
+  color: black;
 }
